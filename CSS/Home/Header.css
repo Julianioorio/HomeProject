@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* line 1, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header {
+  background-color: black;
+}
+
+/* line 4, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .header-top {
+  display: flex;
+}
+
+/* line 8, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .conteiner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 13, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 56px;
+  padding-top: 20px;
+}
+
+/* line 19, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .PhoneBlock {
+  font-family: Jost;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+/* line 26, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .PhoneBlock a:hover {
+  color: #BB8C5F;
+}
+
+/* line 30, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .PhoneBlock img {
+  vertical-align: -4px;
+}
+
+/* line 35, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .setiBlock {
+  display: flex;
+}
+
+/* line 38, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .setiBlock div {
+  margin-right: 10px;
+}
+
+/* line 42, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .setiBlock span {
+  font-family: Jost;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* line 48, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .contacts .setiBlock span a:hover {
+  color: #BB8C5F;
+}
+
+/* line 55, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .gmailBlock {
+  padding-top: 20px;
+}
+
+/* line 57, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .gmailBlock img {
+  padding: 6px 5px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* line 63, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .gmailBlock a:last-child {
+  font-family: Jost;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* line 70, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .gmailBlock a:hover {
+  color: #BB8C5F;
+}
+
+/* line 75, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .LOGO {
+  margin-left: 142px;
+  margin-right: auto;
+}
+
+/* line 79, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .LOGO p:first-of-type {
+  font-family: Forum;
+  color: #BB8C5F;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  line-height: 80%;
+}
+
+/* line 89, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .LOGO p:last-of-type {
+  font-family: Jost;
+  color: #BB8C5F;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin: 0px;
+}
+
+/* line 100, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .header {
+  padding: 14px 12px;
+}
+
+/* line 103, ../../../OneDrive/Рабочий стол/PIZDEЦ/SCSS/Home/Header.scss */
+.fon-header .HeaderLine {
+  margin-top: 10px;
+  margin-bottom: 13px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,108 @@
+.fon-header {
+    background-color: black;
+
+    .header-top {
+        display: flex;
+    }
+
+    .conteiner {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        margin-right: 56px;
+        padding-top: 20px;
+
+        .PhoneBlock {
+            font-family: Jost;
+            color: white;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 150%;
+
+            a:hover {
+                color: #BB8C5F;
+            }
+
+            img {
+                vertical-align: -4px;
+            }
+        }
+
+        .setiBlock {
+            display: flex;
+
+            div {
+                margin-right: 10px;
+            }
+
+            span {
+                font-family: Jost;
+                color: white;
+                font-weight: 400;
+                font-size: 15px;
+
+                a:hover {
+                    color: #BB8C5F;
+                }
+            }
+        }
+    }
+
+    .gmailBlock {
+        padding-top: 20px;
+        img {
+            padding: 6px 5px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        a:last-child {
+            font-family: Jost;
+            color: white;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        a:hover {
+            color: #BB8C5F;
+        }
+    }
+
+    .LOGO {
+        margin-left: 142px;
+        margin-right: auto;
+
+        p:first-of-type {
+            font-family: Forum;
+            color: #BB8C5F;
+            font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            margin: 0px;
+            line-height: 80%;
+        }
+
+        p:last-of-type {
+            font-family: Jost;
+            color: #BB8C5F;
+            font-weight: 400;
+            font-size: 15px;
+            text-align: center;
+            letter-spacing: 4px;
+            margin: 0px;
+        }
+    }
+
+    .header {
+        padding: 14px 12px;
+    }
+    .HeaderLine {
+        margin-top: 10px;
+        margin-bottom: 13px;
+        width: 100%;
+    }
+}
