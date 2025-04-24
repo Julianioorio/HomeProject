@@ -54,6 +54,7 @@
 
     .gmailBlock {
         padding-top: 20px;
+
         img {
             padding: 6px 5px;
             vertical-align: middle;
@@ -100,9 +101,149 @@
     .header {
         padding: 14px 12px;
     }
+
     .HeaderLine {
         margin-top: 10px;
         margin-bottom: 13px;
         width: 100%;
+    }
+}
+
+.header-bot {
+    .burger {
+        display: flex;
+        cursor: pointer;
+
+        p {
+            display: inline-block;
+            font-family: jost;
+            font-weight: 400;
+            color: white;
+            font-size: 25px;
+            margin: 0;
+            margin-right: 8px;
+        }
+
+        p+div {
+            width: 28px;
+            padding: 9px 7px 2px;
+        }
+
+        span {
+            display: block;
+            margin-bottom: 3px;
+            width: 24px;
+            height: 3px;
+            background: #BB8C5F;
+            transition: 0.3s;
+        }
+
+        span:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .triagle {
+        width: 0px;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid white;
+    }
+    .triaBLockWidth {
+        width: 50px;
+    }
+    .triaBLock {
+        width: 100px;
+        position: absolute;
+        display: flex;
+    }
+    .active {
+        display: block;
+    }
+    .hidden {
+        display: none;
+    }
+    .nav {
+        width: 618px;
+        background-color: white;
+        position: absolute;
+        margin-top: 20px;
+        .katalogBlock {
+            display: flex;
+            padding-top: 44px;
+            padding-bottom: 30px;
+            padding-left: 50px;
+            margin: 0;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 200px;
+                Button {
+                    font-family: Jost;
+                    font-weight: 600;
+                    font-size: 21px;
+                    margin-right: 30px;
+                    text-align: justify;
+                    border: none;
+                    outline: none;
+                    background-color: white;
+                    cursor: pointer;
+                    margin-right: 0;
+                }
+
+                img {
+                    width: 75%;
+                }
+
+            }
+        }
+
+        .katLinks1 {
+            display: flex;
+            gap: 40px;
+            padding: 40px 50px;
+
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 20px;
+                font-family: Jost;
+                font-weight: 400;
+                font-size: 17px;
+            }
+        }
+
+        .katLinks2 {
+            display: flex;
+            gap: 40px;
+            padding: 40px 50px;
+
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 20px;
+                font-family: Jost;
+                font-weight: 400;
+                font-size: 17px;
+            }
+        }
+        .hidden {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        li {
+            list-style-type: none;
+        }
     }
 }
