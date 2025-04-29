@@ -110,9 +110,12 @@
 }
 
 .header-bot {
+    display: flex;
+    flex-direction: row;
     .burger {
         display: flex;
         cursor: pointer;
+        margin-right: 60px;
 
         p {
             display: inline-block;
@@ -148,6 +151,7 @@
         border-left: 15px solid transparent;
         border-right: 15px solid transparent;
         border-bottom: 15px solid white;
+        margin-top: 5px;
     }
     .triaBLockWidth {
         width: 50px;
@@ -168,6 +172,7 @@
         background-color: white;
         position: absolute;
         margin-top: 20px;
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
         .katalogBlock {
             display: flex;
             padding-top: 44px;
@@ -244,6 +249,46 @@
 
         li {
             list-style-type: none;
+        }
+    }
+    .Search {
+        display: flex;
+        border: 1px solid rgb(96, 66, 29);
+        position: relative;
+        margin-top: -15px;
+        img {
+            align-items: center;
+        }
+        input {
+            width: 418px;
+            height: 44px;
+            background-color: black;
+            border: black;
+            pointer-events: point;
+            color: white;
+        }
+        .triaBLock {
+            position: absolute;
+            left: 0px;
+        }
+        ul {
+            position: absolute;
+            width: 418px;
+            list-style-type: none;
+            padding-left: 0;
+            background-color: white;
+            left: 0px;
+            box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.09) inset;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            
+            li {
+                margin-bottom: 20px;
+                font-family: Jost;
+                font-weight: 400;
+                font-size: 17px;
+            }
         }
     }
 }

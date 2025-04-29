@@ -130,13 +130,20 @@
   width: 100%;
 }
 
-/* line 113, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 112, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 115, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .burger {
   display: flex;
   cursor: pointer;
+  margin-right: 60px;
 }
 
-/* line 117, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 120, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .burger p {
   display: inline-block;
   font-family: jost;
@@ -147,13 +154,13 @@
   margin-right: 8px;
 }
 
-/* line 127, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 130, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .burger p + div {
   width: 28px;
   padding: 9px 7px 2px;
 }
 
-/* line 132, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 135, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .burger span {
   display: block;
   margin-bottom: 3px;
@@ -163,51 +170,53 @@
   transition: 0.3s;
 }
 
-/* line 141, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 144, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .burger span:last-child {
   margin-bottom: 0;
 }
 
-/* line 145, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 148, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .triagle {
   width: 0px;
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid white;
+  margin-top: 5px;
 }
 
-/* line 152, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 156, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .triaBLockWidth {
   width: 50px;
 }
 
-/* line 155, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 159, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .triaBLock {
   width: 100px;
   position: absolute;
   display: flex;
 }
 
-/* line 160, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 164, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .active {
   display: block;
 }
 
-/* line 163, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 167, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .hidden {
   display: none;
 }
 
-/* line 166, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 170, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav {
   width: 618px;
   background-color: white;
   position: absolute;
   margin-top: 20px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
-/* line 171, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 176, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katalogBlock {
   display: flex;
   padding-top: 44px;
@@ -216,14 +225,14 @@
   margin: 0;
 }
 
-/* line 178, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 183, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katalogBlock li {
   display: flex;
   flex-direction: column;
   flex-basis: 200px;
 }
 
-/* line 182, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 187, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katalogBlock li Button {
   font-family: Jost;
   font-weight: 600;
@@ -237,25 +246,25 @@
   margin-right: 0;
 }
 
-/* line 195, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 200, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katalogBlock li img {
   width: 75%;
 }
 
-/* line 202, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 207, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katLinks1 {
   display: flex;
   gap: 40px;
   padding: 40px 50px;
 }
 
-/* line 207, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 212, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katLinks1 ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 212, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 217, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katLinks1 li {
   margin-bottom: 20px;
   font-family: Jost;
@@ -263,20 +272,20 @@
   font-size: 17px;
 }
 
-/* line 220, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 225, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katLinks2 {
   display: flex;
   gap: 40px;
   padding: 40px 50px;
 }
 
-/* line 225, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 230, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katLinks2 ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 230, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 235, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .katLinks2 li {
   margin-bottom: 20px;
   font-family: Jost;
@@ -284,19 +293,70 @@
   font-size: 17px;
 }
 
-/* line 237, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 242, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav .hidden {
   display: none;
 }
 
-/* line 241, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 246, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav img {
   width: 100%;
 }
 
-/* line 245, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+/* line 250, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
 .header-bot .nav li {
   list-style-type: none;
+}
+
+/* line 254, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot .Search {
+  display: flex;
+  border: 1px solid #60421d;
+  position: relative;
+  margin-top: -15px;
+}
+
+/* line 259, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot .Search img {
+  align-items: center;
+}
+
+/* line 262, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot .Search input {
+  width: 418px;
+  height: 44px;
+  background-color: black;
+  border: black;
+  pointer-events: point;
+  color: white;
+}
+
+/* line 270, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot .Search .triaBLock {
+  position: absolute;
+  left: 0px;
+}
+
+/* line 274, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot .Search ul {
+  position: absolute;
+  width: 418px;
+  list-style-type: none;
+  padding-left: 0;
+  background-color: white;
+  left: 0px;
+  box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.09) inset;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+/* line 286, ../../../OneDrive/Рабочий стол/HomeProject/SCSS/Home/Header.scss */
+.header-bot .Search ul li {
+  margin-bottom: 20px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=Header.css.map */
